@@ -1,0 +1,432 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+   
+    
+    
+    .content {
+        color: #fff; /* Color de texto blanco */
+        text-align: center; /* Centra el contenido */
+        padding: 20px;
+    }
+    
+
+    
+ background-color: #FDB927; /* Cambia este valor al color deseado */
+        margin: 0; /* Asegura que no haya margen */
+        padding: 0; /* Asegura que no haya relleno */
+
+    
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+header {
+
+    background-color: #161516;
+    color: #ffffff;
+    padding: 20px;
+    
+ 
+}
+ 
+
+
+.content {
+    color: #331f1f; /* Color de texto blanco */
+    text-align: center; /* Centra el contenido */
+    padding: 20px;
+}
+
+
+
+
+header h1 {
+    font-size: 3.4em; /* Aumenta el tamaño del texto a 3 veces el tamaño predeterminado */
+}
+
+
+header h1 {
+    font-family: 'BankGothic Lt BT', Arial, sans-serif; /* Ejemplo con fuentes de respaldo */
+    /* Otros estilos opcionales */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #cc00ff;
+    text-decoration: none;
+}
+
+/* Aumenta el tamaño de los elementos <li> al doble */
+ul li {
+    font-size: 1.3em;
+}
+
+
+
+#banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #161516;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#servicios, #equipo, #contacto {
+    padding: 95px 0;
+}
+
+
+.date-input {
+    /* Estilos del campo de entrada */
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid purple;
+    color: purple;
+    background-color: white;
+    outline: none;
+    /* Agregamos padding superior e inferior iguales */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Estilo para el placeholder */
+.date-input::placeholder {
+    color: purple;
+    /* Compensamos el espacio agregado con un margin-top negativo */
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-datepicker {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #6a0dad; /* Borde morado */
+    border-radius: 10px;
+}
+
+.ui-datepicker-header {
+    background-color: #cc00ff; /* Fondo morado para el encabezado */
+    color: #fff; /* Texto blanco */
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    background-color: #cc00ff; /* Fondo morado para los botones de navegación */
+    color: #000000; /* Texto blanco */
+}
+
+.ui-datepicker-calendar td {
+    border: none; /* Elimina los bordes de las celdas */
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    background-color: #cc00ff; /* Fondo morado para los días del mes */
+    color: #000000; /* Texto blanco */
+}
+
+.ui-datepicker-calendar .ui-state-active {
+    background-color: #cc00ff; /* Fondo morado más claro para el día seleccionado */
+    color: #ffffff; /* Texto blanco */
+}
+
+.ui-datepicker-calendar .ui-state-hover {
+    background-color: #cc00ff; /* Fondo morado más oscuro para el día al pasar el ratón */
+    color: #000000; /* Texto blanco */
+}
+
+.ui-datepicker-year, .ui-datepicker-month {
+    color: #000000; /* Texto blanco */
+}
+
+.ui-datepicker-current {
+    background-color: #cc00ff; /* Fondo morado para el botón de "Hoy" */
+    color: #000000; /* Texto blanco */
+}
+
+.ui-datepicker-close {
+    background-color: #cc00ff; /* Fondo morado para el botón de "Cerrar" */
+    color: #000000; /* Texto blanco */
+}
+
+
+
+section h2 {
+    text-align: center;
+    color: 	#552583;
+
+   
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.quantity {
+    margin-left: 10px;
+}
+.hours ul {
+    list-style: none;
+    padding: 0;
+    text-align: left center; /* Centrar el texto a la izquierda */
+}
+
+.hours li {
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+.ui-datepicker-calendar {
+    display: block;
+    text-align: center;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+.centered-button {
+    display: block;
+    text-align: center; /* Centra horizontalmente el contenido del botón */
+}
+
+.button {
+    width: 200px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    background-color: 	#552583; /* Color de fondo morado */
+    color: white; /* Color del texto blanco */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Bordes redondeados */
+
+
+
+
+
+}
+
+    
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #161516;
+    padding: 450px 20px;
+    color: #cc00ff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section h4 {
+
+    text-align: center;
+    color: #161516;
+}
+  
+
+
+
+
+
+
+
+
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+section ul li {
+    margin: 10px 0;
+    color: #cc00ff; /* Detalles en morado */
+}
+
+.barber {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.barber img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    text-align: center;
+    color: 	#552583;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  nav ul li a:hover {
+    color:   #cc00ff; /* Cambia el color cuando pasa el cursor */
+  }
+
+
+
+
+
+
+  p {
+    font-size: 18px; /* Cambia este valor al tamaño deseado */
+}
+
+  
+
+footer {
+    background-color: #161516;
+    color: #cc00ff;
+    text-align: center;
+    padding: 30px;
+    position: top;
+    bottom: 0;
+    width: 100%;
+} }
